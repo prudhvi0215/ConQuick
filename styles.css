@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    margin: 4%;
+    justify-content: baseline;
+    /* border: 1px solid black; */
+    /* justify-content: space-between; */
+}
+
+#logo{
+    margin: 1% 55% 0 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+li{
+    margin: 0 20% 0 0;
+}
+
+#main-page{
+    margin: 6% 0 0 4%;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dashing-word{
+    /*border: 1px solid black; */
+    /* margin: 0 30% 0 0;*/
+    font-weight: 2000;
+}
+
+#main-section{
+    border: 1px solid black;
+    background: url("https://wallpaperaccess.com/full/4847463.jpg");
+    background-size: cover;
+    color: azure;
+    padding: 0 0 3% 0;
+}
+
+#mainLogo{
+    width: 60%;
+    height: 400px;
+    margin: 5% 0 0 30%;
+    opacity: 0.5;
+}
+
+/* Para 2 */
+
+#para2{
+    /* border: 1px solid black; */
+    padding: 0.5%;
+    background: linear-gradient(to right,rgb(8, 6, 64),rgb(141, 210, 227),rgba(8, 6, 64,0.6));
+    color: azure;
+}
+/* 81, 11, 186 = Bright Blue*/
+/* 224, 212, 38 = Bright Yellow */
+#citiesBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#para2 > h2{
+    text-align: center;
+}
+
+/* Para 3 */
+
+#para3{
+    /* margin: 8%; */
+    padding: 3%;
+    border: 4px solid black;
+    border-radius: 2%;
+    /* background: linear-gradient(to right,rgb(8, 6, 64),rgba(8, 6, 64,0.9)); */
+    /* color: azure; */
+}
+
+#para3 > h2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: 900;
+}
+
+#workingSection{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.workflow{
+    /* border: 2px solid black; */
+    width:30%;
+}
+
+.workflow img{
+    width: 40%;
+}
+
+/* #order_img{
+    width:43%
+} */
+
+#para3-outer{
+    padding: 8%;
+    /* background: rgb(141, 210, 227,0.4); */
+    /* background: linear-gradient(to right ,rgba(245, 39, 94,0.4),rgba(6, 156, 21,0.2)); */
+    background: linear-gradient(to left, rgba(99, 15, 189,0.1),rgba(99, 15, 189,0.2));
+    
+    /* #3c006b; */
+    /* background: linear-gradient(to right,rgb(141, 210, 227),rgba(8, 6, 64,0.2)); */
+}
+
+#para4 h2{
+    text-align: center;
+    text-decoration: underline;
+    /* border: 3px solid black; */
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* Footer */
+
+footer{
+    background: url("https://wallpaperaccess.com/full/4847463.jpg");
+    /* background-size: contain; */
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    color: #fff;
+}
+
+#footer>h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#cashflow{
+    /* width:30%; */
+}
+
+#footer-lastLine{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 2%;
+}
